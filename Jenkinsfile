@@ -5,6 +5,8 @@ pipeline {
     stage('Install Dependencies') {
       steps {
         script {
+          echo "sss"
+          echo ${node -v}
           sh 'npm install'
         }
       }
