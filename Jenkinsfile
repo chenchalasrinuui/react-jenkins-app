@@ -6,7 +6,7 @@ pipeline {
       steps {
         script {
           echo "sss"
-          echo ${node -v}
+          echo "${node -v}"
           sh 'npm install'
         }
       }
